@@ -13,7 +13,7 @@ Place all of these downloads in the ./data/ directory.
 For training a new image captioning model and then generating caption for an image, do:
 
 	from image_captioning import generate_image_caption
-	print generate_image_caption(image_path='image_path', train_model=False)
+	print generate_image_caption(image_path='image_path', train_model=True)
 
 For generating caption for an image using pre-trained image captioning model, do:
 
